@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Grace Community Fellowship Church for prayer requests, service details, and ministry connection in Kacheliba and Pokot-North.">
+  <meta property="og:title" content="Contact Grace Community Fellowship Church">
+  <meta property="og:description" content="Contact Grace Community Fellowship Church for prayer requests, service details, and ministry connection in Kacheliba and Pokot-North.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/logo.jpeg">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
+  <title>Contact GCFC</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main id="main-content">
+    <header class="page-band">
+      <div class="page-width">
+        <p class="page-kicker">We’re listening</p>
+        <h1>Contact GCFC</h1>
+        <p class="page-lead">Prayer requests, visit notices, questions about services, or ministry support — reach out and our team will respond as soon as we can.</p>
+        <div class="page-band-actions">
+          <a class="button" href="visit.html">Before you visit</a>
+          <a class="button button-alt button-on-dark" href="events.html">Events calendar</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-width content-stack">
+      <section class="section-panel">
+        <div class="visit-bento">
+          <div class="visit-bento__facts">
+            <h3 class="visit-bento__heading">Quick reference</h3>
+            <dl class="visit-facts">
+              <div>
+                <dt>Sunday</dt>
+                <dd>10:00 AM · GCFC Kongelai</dd>
+              </div>
+              <div>
+                <dt>Wednesday</dt>
+                <dd>6:30 PM · Prayer &amp; Bible study</dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:office@gcfc.org">office@gcfc.org</a></dd>
+              </div>
+            </dl>
+          </div>
+          <div class="visit-bento__aside">
+            <p><strong>Prefer email?</strong> You can write directly to <a href="mailto:office@gcfc.org">office@gcfc.org</a> for prayer, visits, or general questions.</p>
+            <p>Use the form for structured requests (especially if you need a follow-up call).</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-panel">
+        <h2>Send a message</h2>
+        <p>Planning to visit? Let us know so we can welcome you. For prayer, choose “Prayer request” below.</p>
+
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>
+            Name *
+            <input type="text" name="name" placeholder="Your full name" required aria-required="true">
+          </label>
+          <label>
+            Email *
+            <input type="email" name="email" placeholder="your@email.com" required aria-required="true">
+          </label>
+          <label>
+            Phone (optional)
+            <input type="tel" name="phone" placeholder="Your phone number">
+          </label>
+          <label>
+            Request type
+            <select name="request_type" aria-label="Request type">
+              <option value="">Select an option</option>
+              <option value="prayer">Prayer request</option>
+              <option value="visit">Planning a visit</option>
+              <option value="ministry">Ministry involvement</option>
+              <option value="event">Event information</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label>
+            Message *
+            <textarea name="message" rows="6" placeholder="How can we pray for you or help your family?" required aria-required="true"></textarea>
+          </label>
+          <button class="button" type="submit">Send message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

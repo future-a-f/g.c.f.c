@@ -1,0 +1,28 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  min-height: 100%;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: #f7f7f3;
+  color: #1b1b1b;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img, picture, video {
+  max-width: 100%;
+  display: block;
+}
+button {
+  font: inherit;
+}
+ul {
+  list-style: disc inside;
+}
